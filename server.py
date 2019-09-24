@@ -7,8 +7,8 @@ from validation import is_valid
 app = Flask(__name__)
 
 messages = []
-users = {'fish': '123',
-         'johndoe': 'qwerty'}
+users = {'fish': '123'}
+
 
 
 @app.route('/ping', methods = ['GET'])
